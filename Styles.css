@@ -1,0 +1,129 @@
+/* previous CSS code... */
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Previous CSS Code */
+
+ 
+
+.butterfly-container {
+
+    position: relative;
+
+    height: 200px; /* Adjust based on your preference */
+
+}
+
+ 
+
+.butterfly {
+
+    position: absolute;
+
+    width: 100px; /* Adjust based on your image */
+
+    animation: fly 5s infinite linear;
+
+}
+
+ 
+
+@keyframes fly {
+
+    0% {
+
+        left: -100px;
+
+        top: 0;
+
+    }
+
+    50% {
+
+        top: 100px;
+
+    }
+
+    100% {
+
+        left: 100%;
+
+        top: 0;
+
+    }
+
+}
+
+/* Previous CSS Code */
+
+ 
+
+.butterfly-container, .moth-container {
+    position: relative;
+    height: 200px; /* Adjust based on your preference */
+}
+
+ 
+
+.butterfly, .moth {
+    position: absolute;
+    width: 100px; /* Adjust based on your images */
+}
+
+ 
+
+.butterfly {
+    animation: fly-butterfly 5s linear; /* Removed 'infinite' */
+}
+
+ 
+
+.moth {
+    animation: fly-moth 6s linear; /* Moth will fly slower */
+}
+
+ 
+
+@keyframes fly-butterfly {
+    0% {
+        left: -100px;
+        top: 0;
+    }
+    50% {
+        top: 100px;
+    }
+    100% {
+        left: 110%;
+        top: 200px;
+    }
+}
+
+ 
+
+@keyframes fly-moth {
+    0% {
+        right: -100px; /* Moth starts from the right side */
+        top: 0;
+    }
+    50% {
+        top: 150px; /* Moth flies lower */
+    }
+    100% {
+        right: 110%; /* Moth moves off the left side of the screen */
+        top: 100px;
+    }
+}
+ 
+
+

@@ -15,13 +15,11 @@ button:hover {
 
 /* Previous CSS Code */
 
- 
-
-.butterfly-container {
+ .butterfly-container {
 
     position: relative;
 
-    height: 200px; /* Adjust based on your preference */
+    height: 300px; /* Adjust based on your preference */
 
 }
 
@@ -71,7 +69,7 @@ button:hover {
 
 .butterfly-container, .moth-container {
     position: relative;
-    height: 200px; /* Adjust based on your preference */
+    height: 300px; /* Adjust based on your preference */
 }
 
  
